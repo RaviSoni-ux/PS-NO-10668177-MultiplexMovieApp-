@@ -1,0 +1,16 @@
+PostMan 
+url:
+
+POST: http://localhost:8102/addMultiplex/
+GET:  http://localhost:8102/getMultiplexDetails/
+
+{
+    "id": "5f13dee3ef636f340c867bb6",
+    "multiplexname": null,
+    "address": null,
+    "numberofscreens": [
+        "screen-01",
+        "screen-02",
+        "screen-03"
+    ]
+}
