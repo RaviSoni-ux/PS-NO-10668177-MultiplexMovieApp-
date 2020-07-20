@@ -1,0 +1,22 @@
+Postman 
+url : 
+
+json data add movie : 
+POST: http://localhost:8101/addMovie/
+{
+    
+    "name": "AXN",
+    "director": "Ram",
+    "producer": "JAX",
+    "category": "Ation"
+    
+}
+ GET: http://localhost:8101/getMovieDetails/
+{
+    "id": "5f10cdd65a32250046f6ae68",
+    "director": "Ram",
+    "releaseDate": "2020-07-16T21:59:50.736+00:00",
+    "category": "Ation",
+    "producer": "JAX",
+    "name": "AXN"
+}
